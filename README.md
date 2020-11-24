@@ -133,3 +133,7 @@ Grays:
   border-bottom: 4px solid hsl(245deg, 100%, 55%);
 }
 ```
+
+## Submissions
+
+Workshops are submitted through the course platform. Commit your changes, push them to your fork, and submit the link by clicking the "Complete lesson" button on the workshop page.
