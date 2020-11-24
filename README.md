@@ -1,6 +1,135 @@
-TODO
+# Huckleberry Agency Website
 
-## Color palette
+In this workshop, you'll build a minimal landing page for an agency.
 
-Primary: `hsl(245deg, 100%, 55%)`
-Secondary: `hsl(45deg, 100%, 50%)`
+This mockup is built entirely using _flow layout_: no Flexbox, no grid, no absolute positioning. It relies heavily on padding, margin, and border.
+
+## Mockups
+
+Desktop:
+
+![Desktop-sized screenshot of an agency landing page](./docs/huckleberry-desktop.png)
+
+Tablet:
+
+![Desktop-sized screenshot of an agency landing page](./docs/huckleberry-tablet.png)
+
+Mobile:
+
+![Desktop-sized screenshot of an agency landing page](./docs/huckleberry-mobile.png)
+
+## Setup Instructions
+
+This project uses Parcel, to provide a development server with lightning-quick hot-reload.
+
+Start by installing dependencies:
+
+```
+npm install
+```
+
+Boot up a dev server:
+
+```
+npm run start
+```
+
+You should see a confirmation message like this:
+
+![Screenshot of a terminal, showing a server running at http://localhost:1234](./docs/success.png)
+
+You can visit `http://localhost:1234` to view the page. You should see a bunch of unstyled content:
+
+TODO screenshot
+
+## Getting Started Notes
+
+- You're given a decent start in terms of the HTML markup, but not much in the way of styles. You'll be expected to edit `style.css` to implement the styles. You can also edit `index.html` if you wish, though it should be possible to solve this project touching only `style.css`.
+
+- Don't worry too much about "best practices". Later in this course, we'll see how to create scalable encapsulated styles. For now, the goal is simply to implement the designs in the screenshots, with whatever organizational strategy comes most naturally to you.
+
+- You may be tempted to reach for CSS strategies we haven't yet seen in the course, like flexbox or absolute positioning. Please try and complete this workshop without them. This module is focused on flow-layout and the box-model, and it is possible to lay everything out on the page using only padding, border, and margin. It's important to be comfortable with these primitives before moving on to more-complex subjects.
+
+- Future workshops will provide a React starter. For the early workshops, the focus is on the fundamentals, so we're using pure HTML and CSS. If you're more comfortable working in React (or another framework), feel free to use it instead.
+
+- **Pay close attention to the details.** For example, you should be able to draw a line along the left, and all text should be neatly aligned:
+
+![Desktop mockup with a vertical line showing alignment](./docs/aligned.png)
+
+That said: Don't worry if you can't create a pixel-perfect recreation. In the solution video, I'll show you exactly how I did it. Spend an hour or so on this project, and submit whatever you have at that point.
+
+## Design tokens
+
+In the early days of the web, sites would be built largely on "feel". Colors and sizes would be chosen based on the whims of the moment. This led to some very inconsistent-looking websites!
+
+Nowadays, it's common to have a set of _design tokens_. A design token is a value that can be reused. Typically it's part of a collection or a scale.
+
+We'll learn more about this idea later, but for now, you can copy/paste the values from this list as-needed. Don't worry about being DRY or using variables; Plop these values in, wherever you need them.
+
+**If you find it difficult to use these tokens, or if you're not able to achieve a result you're happy with, don't worry about it.** Solve it however you can, and then watch the solution video to see how I did it.
+
+### Spacing
+
+This app uses an 8px unit. All spaces are a multiple of 8px:
+
+- `8px`
+- `16px`
+- `24px`
+- `32px`
+- `48px`
+- `64px`
+- `96px`
+- `128px`
+
+When it comes to max widths (eg. the maximum width of the card), arbitrary values can be used.
+
+### Font
+
+1 font is used in this project: `Lato`. It is already included in the stylesheet.
+
+For font sizes, the `rem` unit should be used The scale is:
+
+- `1rem`
+- `1.25rem`
+- `1.5rem`
+- `2rem`
+
+Because the base font size is 18px, this works out in pixels to:
+
+- `18px`
+- `22.5px`
+- `27px`
+- `36px`
+
+### Color palette
+
+Primary (green):
+
+- `hsl(160deg, 100%, 30%)`
+
+Secondary (gold):
+
+- `hsl(45deg, 100%, 50%)` (lighter)
+- `hsl(45deg, 100%, 40%)` (darker)
+
+Grays:
+
+- `hsl(0deg, 0%, 0%)` (black)
+- `hsl(0deg, 0%, 10%)` (very dark)
+- `hsl(0deg, 0%, 30%)` (dark)
+- `hsl(0deg, 0%, 40%)` (medium)
+- `hsl(0deg, 0%, 60%)` (light)
+- `hsl(0deg, 0%, 100%)` (white)
+
+> What the HSL?
+>
+> You may be more familiar with color values in hexidecimal format, like `#FF0000`. In this course, we'll focus almost entirely on colors in a different format: HSL.
+>
+> We'll learn more about this format in a future module, but for now, you can use them interchangeably with hex values. For example:
+
+```css
+.something {
+  background: hsl(45deg, 100%, 50%);
+  border-bottom: 4px solid hsl(245deg, 100%, 55%);
+}
+```

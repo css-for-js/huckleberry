@@ -12,6 +12,7 @@ body {
 /* Add styles here! */
 html {
   font-size: 18px;
+  color: hsl(0deg, 0%, 10%);
 }
 
 p {
@@ -31,13 +32,14 @@ p {
 
 .intro-chunk strong {
   font-weight: 900;
-  color: hsl(245deg, 100%, 55%);
+  color: hsl(160deg, 100%, 30%);
 }
 
 main {
   padding-top: 96px;
   padding-bottom: 128px;
-  background: #111;
+  background: hsl(0deg, 0%, 60%);
+  border-top: 8px solid hsl(0deg, 0%, 40%);
 }
 
 main p {
@@ -45,10 +47,10 @@ main p {
 }
 
 .title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin: 0;
   margin-bottom: 64px;
-  color: black;
+  color: hsl(0deg, 0%, 0%);
 }
 
 .max-width-wrapper {
@@ -59,10 +61,10 @@ main p {
 }
 
 .card {
-  background: white;
-  color: #333;
+  background: hsl(0deg, 0%, 100%);
   padding: 32px;
   margin: 0 -32px;
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
 }
 
 .card *:last-child {
@@ -74,11 +76,12 @@ main p {
   margin-top: -24px;
   margin-left: -48px;
   margin-bottom: 24px;
-  padding: 16px;
+  padding: 24px;
   padding-left: 48px;
   padding-right: 48px;
   background: hsl(45deg, 100%, 50%);
-  color: black;
+  color: hsl(0deg, 0%, 0%);
   width: fit-content;
   font-size: 1.5rem;
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
 }
