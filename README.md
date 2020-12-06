@@ -40,7 +40,7 @@ You should see a confirmation message like this:
 
 You can visit `http://localhost:1234` to view the page. You should see a bunch of unstyled content:
 
-TODO screenshot
+![Screenshot of an unstyled page with a couple headings and some paragraphs](./docs/initial.png)
 
 ## Getting Started Notes
 
@@ -50,9 +50,9 @@ TODO screenshot
 
 - You may be tempted to reach for CSS strategies we haven't yet seen in the course, like flexbox or absolute positioning. Please try and complete this workshop without them. This module is focused on flow-layout and the box-model, and it is possible to lay everything out on the page using only padding, border, and margin. It's important to be comfortable with these primitives before moving on to more-complex subjects.
 
-- Future workshops will provide a React starter. For the early workshops, the focus is on the fundamentals, so we're using pure HTML and CSS. If you're more comfortable working in React (or another framework), feel free to use it instead.
+- Future workshops will provide a React starter. For the early workshops, the focus is on the fundamentals, so we're using pure HTML and CSS. If you feel more comfortable using a JS framework like React, you can go ahead, but please don't use any component libraries or CSS frameworks. All CSS should be written by hand.
 
-- **Pay close attention to the details.** For example, you should be able to draw a line along the left, and all text should be neatly aligned:
+- **Pay close attention to alignment.** For example, you should be able to draw a line along the left, and all text should be neatly aligned:
 
 ![Desktop mockup with a vertical line showing alignment](./docs/aligned.png)
 
@@ -123,17 +123,10 @@ Grays:
 
 > What the HSL?
 >
-> You may be more familiar with color values in hexidecimal format, like `#FF0000`. In this course, we'll focus almost entirely on colors in a different format: HSL.
->
-> We'll learn more about this format in a future module, but for now, you can use them interchangeably with hex values. For example:
-
-```css
-.something {
-  background: hsl(45deg, 100%, 50%);
-  border-bottom: 4px solid hsl(245deg, 100%, 55%);
-}
-```
+> You may be more familiar with color values in hexidecimal format, like `#FF0000`. In Module 0's "color" lesson, we go over what HSL color is and how it works. If you haven't already, it's worth reviewing before getting started!
 
 ## Submissions
 
-Workshops are submitted through the course platform. Commit your changes, push them to your fork, and submit the link by clicking the "Complete lesson" button on the workshop page.
+**Workshops are submitted through the course platform.** Commit your changes, push them to your fork, and submit the link by clicking the "Complete lesson" button on the workshop page.
+
+If you're not comfortable with Git, you can upload a `.zip` file using Dropbox or Google Drive, and paste a link to the public file instead.
