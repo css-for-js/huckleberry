@@ -87,7 +87,9 @@ When it comes to max widths (eg. the maximum width of the card), arbitrary value
 
 1 font is used in this project: `Lato`. It is already included in the stylesheet.
 
-For font sizes, the `rem` unit should be used The scale is:
+For font sizes, the `rem` unit should be used.
+
+The scale is:
 
 - `1rem`
 - `1.25rem`
