@@ -5,5 +5,8 @@
   "author": "Joshua Comeau",
   "scripts": {
     "start": "parcel index.html"
+  },
+  "dependencies": {
+    "parcel": "^1.12.4"
   }
 }
