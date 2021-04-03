@@ -4,9 +4,95 @@
 }
 
 html,
-body {
+body,
+h1,
+h2,
+p {
   margin: 0;
   padding: 0;
 }
 
-/* Add styles here! */
+html {
+  font-size: 18px;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Type */
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 48px;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.intro-chunk p {
+  font-size: 1.5rem;
+}
+
+/* Max-width Wrapper */
+
+.max-width-wrapper {
+  background: #fff;
+  max-width: 720px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Header */
+
+header {
+  padding-top: 128px;
+  padding-bottom: 80px;
+}
+
+.intro-chunk {
+  /* background: hsl(0deg, 0%, 90%); */
+  display: inline-block;
+  max-width: 440px;
+}
+
+.intro-chunk strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+/* Main */
+
+main {
+  background-color: hsl(0deg, 0%, 60%);
+  border-top: 8px solid hsl(0deg, 0%, 40%);
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+main .max-width-wrapper {
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+}
+
+.card {
+  background-color: #fff;
+  padding-bottom: 16px;
+}
+
+.indented-heading {
+  display: inline-block;
+  padding: 16px 40px;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  margin-left: -48px;
+
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+}
