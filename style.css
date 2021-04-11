@@ -7,6 +7,44 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: darkgrey;
+}
+.max-width-wrapper {
+  background-color: white;
+  border-bottom: grey;
+  border-bottom-style: solid;
+
+}
+strong {
+  color: green
 }
 
-/* Add styles here! */
+.intro-chunk {
+  width: 900px;
+  background-color: white;
+
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.card {
+  max-width: 900px;
+  background-color: white;
+  margin: 50px auto;
+  padding: 20px;
+  border-bottom: grey;
+  border-bottom-style: solid;
+}
+
+.indented-heading {
+  overflow-wrap: normal;
+  padding: 20px; 
+  padding-left: 50px;
+  width: max-content;
+  background-color: gold;
+  border-color: darkgoldenrod;
+  border-bottom-style: solid;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: -40px;
+}
