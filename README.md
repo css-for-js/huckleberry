@@ -20,7 +20,7 @@ Mobile:
 
 ## Setup Instructions
 
-This project uses Parcel, to provide a development server with lightning-quick hot-reload.
+This project uses an NPM package called "serve" — it provides a basic local file server, so that you can view the HTML file in-browser.
 
 Start by installing dependencies:
 
@@ -28,7 +28,7 @@ Start by installing dependencies:
 npm install
 ```
 
-Boot up a dev server:
+Start the server:
 
 ```
 npm run start
@@ -36,11 +36,19 @@ npm run start
 
 You should see a confirmation message like this:
 
-![Screenshot of a terminal, showing a server running at http://localhost:1234](./docs/success.png)
+![Screenshot of a terminal, showing a server running at http://localhost:5000](./docs/terminal-example.png)
 
-You can visit `http://localhost:1234` to view the page. You should see a bunch of unstyled content:
+You can visit `http://localhost:5000` to view the page. You should see a bunch of unstyled content:
 
 ![Screenshot of an unstyled page with a couple headings and some paragraphs](./docs/initial.png)
+
+> **Trouble with the `serve` package?**
+>
+> Because this project is vanilla HTML and CSS, you can always open the HTML file in your browser, without fussing with a local file server.
+>
+> Certain JS APIs won't work when viewing files in this way, but that isn't a concern for this project.
+
+---
 
 ## Getting Started Notes
 

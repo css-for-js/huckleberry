@@ -1,15 +1,12 @@
 {
-  "name": "css-for-js-flow-layout",
+  "name": "huckleberry",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Joshua Comeau",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "serve ."
   },
   "dependencies": {
-    "parcel": "1.12.3"
-  },
-  "resolutions": {
-    "@babel/preset-env": "7.13.8"
+    "serve": "^11.3.2"
   }
 }
