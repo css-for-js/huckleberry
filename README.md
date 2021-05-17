@@ -20,7 +20,7 @@ Mobile:
 
 ## Setup Instructions
 
-This project uses an NPM package called "serve" — it provides a basic local file server, so that you can view the HTML file in-browser.
+This project uses an NPM package called "live-server" — it provides a basic local file server, so that you can view the HTML file in-browser. It will also refresh the page every time you edit your index.html or your css, so you can see your updates in real time.
 
 Start by installing dependencies:
 
@@ -38,7 +38,7 @@ You should see a confirmation message like this:
 
 ![Screenshot of a terminal, showing a server running at http://localhost:5000](./docs/terminal-example.png)
 
-You can visit `http://localhost:5000` to view the page. You should see a bunch of unstyled content:
+You can visit `http://localhost:8080` to view the page. You should see a bunch of unstyled content:
 
 ![Screenshot of an unstyled page with a couple headings and some paragraphs](./docs/initial.png)
 

@@ -4,9 +4,13 @@
   "main": "index.js",
   "author": "Joshua Comeau",
   "scripts": {
-    "start": "serve ."
+    "start": "live-server ."
   },
   "dependencies": {
-    "serve": "^11.3.2"
+    "live-server": "^1.2.1"
+  },
+  "engines": {
+    "npm": "please-use-yarn",
+    "yarn": ">= 1.22.4"
   }
 }
