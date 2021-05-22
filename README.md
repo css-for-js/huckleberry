@@ -133,7 +133,7 @@ Grays:
 
 > What the HSL?
 >
-> You may be more familiar with color values in hexidecimal format, like `#FF0000`. In Module 0's "color" lesson, we go over what HSL color is and how it works. If you haven't already, it's worth reviewing before getting started!
+> You may be more familiar with color values in hexadecimal format, like `#FF0000`. In Module 0's "color" lesson, we go over what HSL color is and how it works. If you haven't already, it's worth reviewing before getting started!
 
 ## Submissions
 
