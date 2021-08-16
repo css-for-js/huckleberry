@@ -1,7 +1,28 @@
+:root {
+ --spacing-single: 8px;
+ --spacing-double: 16px;
+ --spacing-triple: 32px;
+ --spacing-four: 48px;
+ --spacing-five: 64px;
+ --spacing-six: 96px;
+ --spacing-sevent: 128px;
+ --primary-green:  hsl(160deg, 100%, 30%);
+ --secondary-light: hsl(45deg, 100%, 50%);
+ --secondary-dark: hsl(45deg, 100%, 40%);
+  --black: hsl(0deg, 0%, 0%);
+  --grey-super-dark:hsl(0deg, 0%, 10%);
+  --grey-dark:hsl(0deg, 0%, 30%);
+  --grey-medium: hsl(0deg, 0%, 40%);
+  --grey-light: hsl(0deg, 0%, 60%);
+  --white: hsl(0deg, 0%, 100%);
+}
+
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
+  font-size: 18px;
 }
+
 
 html,
 body {
@@ -10,3 +31,61 @@ body {
 }
 
 /* Add styles here! */
+
+body {
+  background-color: var(--grey-light);
+}
+
+header {
+  background-color: var(--white);
+  padding: var(--spacing-four) 0 var(--spacing-triple);
+  margin-bottom: var(--spacing-four);
+}
+
+.intro-chunk {
+  padding: 0 var(--spacing-double);
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.intro-chunk p {
+  max-width: 300px;
+}
+
+p > strong {
+  color: var(--primary-green) !important;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+}
+
+header, .card { 
+  border-bottom: .25rem solid var(--grey-dark);
+}
+
+/* p {
+  margin: 0;
+} */
+
+.card {
+  background-color: var(--white);
+  border-top: .25rem solid transparent;
+  margin: var(--spacing-single) auto 0;
+  max-width: 750px;
+}
+
+.indented-heading {
+  width: fit-content;
+  max-width: 90%;
+  padding: 1rem;
+  margin: 0;
+  background-color: var(--secondary-light);
+  border-bottom: .25rem solid var(--secondary-dark);
+}
+
+.card > p {
+  padding: 0 var(--spacing-double);
+  margin: var(--spacing-double) 0;
+}
