@@ -1,12 +1,95 @@
 * {
-  box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
 html,
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 /* Add styles here! */
+
+:root {
+    --spacing-unit: 8; /* px */
+
+    --background-color-text: #fff;
+    --background-color-card: #fff;
+    --background-color-card-header: #FDC000;
+    --background-color-main: #999999;
+
+
+    --color-text-emphasize: #1B9966;
+
+    --shadow-color-generic: #666666;
+    --shadow-color-card-header: #CA9900;
+}
+
+body {
+    padding-top: calc(var(--spacing-unit) * 10px);
+}
+
+header {
+    background-color: var(--background-color-text);
+    margin-bottom: calc(var(--spacing-unit) * 10px);
+}
+
+main {
+    border-top: calc(var(--spacing-unit) * 1px) solid var(--shadow-color-generic);
+    background-color: var(--background-color-main);
+    padding: calc(var(--spacing-unit) * 10px); calc(var(--spacing-unit) * 5px);
+}
+
+strong {
+    color: var(--color-text-emphasize);
+}
+
+.max-width-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 525px;
+}
+
+.intro-chunk {
+    max-width: 300px;
+}
+
+.card {
+    background-color: var(--background-color-card);
+    margin-left: calc(var(--spacing-unit) * 3px * -1);
+    margin-right: calc(var(--spacing-unit) * 3px * -1);
+    padding: calc(var(--spacing-unit) * 1px) calc(var(--spacing-unit) * 3px) 0 calc(var(--spacing-unit) * 3px);
+    border-bottom: calc(var(--spacing-unit) * 1px) solid var(--shadow-color-generic);
+}
+
+.indented-heading {
+    background-color: var(--background-color-card-header);
+    border-bottom: calc(var(--spacing-unit) * 1px) solid var(--shadow-color-card-header);
+    margin-top: 0;
+    margin-left: calc(var(--spacing-unit) * 4px * -1);
+    padding: calc(var(--spacing-unit) * 2px) calc(var(--spacing-unit) * 4px);
+    width: max-content;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .max-width-wrapper {
+        padding-left: calc(var(--spacing-unit) * 2px);
+        padding-right: calc(var(--spacing-unit) * 2px);
+    }
+
+    .card {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 414px) {
+    .indented-heading {
+        width: 100%;
+    }
+}
