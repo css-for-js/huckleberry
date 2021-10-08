@@ -70,7 +70,7 @@ That said: Don't worry if you can't create a pixel-perfect recreation. In the so
 
 In the early days of the web, sites would be built largely on "feel". Colors and sizes would be chosen based on the whims of the moment. This led to some very inconsistent-looking websites!
 
-Nowadays, it's common to have a set of _design tokens_. A design token is a value that can be reused. Typically it's part of a collection or a scale.
+Nowadays, it's common to have a set of _design tokens_. A design token is a value that can be reused. Typically, it's part of a collection or a scale.
 
 We'll learn more about this idea later, but for now, you can copy/paste the values from this list as-needed. Don't worry about being DRY or using variables; Plop these values in, wherever you need them.
 
@@ -89,7 +89,7 @@ This app uses an 8px unit. All spaces are a multiple of 8px:
 - `96px`
 - `128px`
 
-When it comes to max widths (eg. the maximum width of the card), arbitrary values can be used.
+When it comes to max widths (e.g. the maximum width of the card), arbitrary values can be used.
 
 ### Font
 
