@@ -12,11 +12,11 @@ Desktop:
 
 Tablet:
 
-<img alt="Desktop-sized screenshot of an agency landing page" src="./docs/huckleberry-tablet.png" style="max-width: 400px;" />
+<img alt="Tablet-sized screenshot of an agency landing page" src="./docs/huckleberry-tablet.png" style="max-width: 400px;" />
 
 Mobile:
 
-<img alt="Desktop-sized screenshot of an agency landing page" src="./docs/huckleberry-mobile.png" style="max-width: 300px;" />
+<img alt="Mobile-sized screenshot of an agency landing page" src="./docs/huckleberry-mobile.png" style="max-width: 300px;" />
 
 ## Setup Instructions
 
