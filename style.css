@@ -6,7 +6,78 @@
 html,
 body {
   margin: 0;
-  padding: 0;
+  padding:0;
 }
 
 /* Add styles here! */
+
+h1,h2,h3 {
+  margin: 0;
+}
+
+html {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+.max-width-wrapper {
+  max-width: 100%;
+  padding: 0 24x;
+}
+
+.intro-chunk {
+  padding: 96px 0 48px;
+  padding-left: 10px;  
+  line-height: 1.4;
+  margin: 0 auto;
+  max-width: 650px;
+}
+
+.intro-chunk strong {
+  color: hsl(160deg, 100%, 30%);
+  }
+
+.intro-chunk .title {
+  font-size: 2rem;
+  margin-bottom: 48px;
+}  
+
+.intro-chunk p{
+  max-width: 280px;
+}
+  
+section p {
+  font-size: .8rem;
+}
+
+section {
+  border-top: 5px solid hsl(0deg, 0%, 30%);
+  height: 100%;
+  background-color: hsl(0deg, 0%, 60%);
+  padding: 40px 0;
+}
+
+.card {
+  background-color: white;
+  padding: 16px 16px;
+  margin: 0 auto;
+  max-width: 650px;
+}
+
+.indented-heading {
+  width: fit-content;
+  background-color: hsl(45deg, 100%, 50%);
+  padding: 24px;
+  margin-left: -24px;
+  border-bottom:5px solid hsl(45deg, 100%, 40%);
+  margin-top: -12px;
+}
+
