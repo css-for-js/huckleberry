@@ -7,7 +7,77 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  --base: 18px;
+
+  --primary: hsl(160deg, 100%, 30%);
+  --secondary-lighter: hsl(45deg, 100%, 50%);
+  --secondary-darker: hsl(45deg, 100%, 40%);
+  --black: hsl(0deg, 0%, 0%);
+  --very-dark: hsl(0deg, 0%, 10%);
+  --dark: hsl(0deg, 0%, 30%);
+  --medium: hsl(0deg, 0%, 40%);
+  --light: hsl(0deg, 0%, 60%);
+  --white: hsl(0deg, 0%, 100%);
 }
+
+h1, h2 {
+  margin: 0;
+  line-height: 1;
+  color: var(--black);
+}
+
+header {
+  padding: calc(var(--base) * 3) 0 var(--base);
+  border-bottom: calc(var(--base) / 4) solid var(--medium);
+}
+
+.max-width-wrapper {
+  max-width: calc(var(--base) * 32);
+  margin: 0 auto;
+  padding: var(--base);
+  background-color: var(--white);
+}
+
+.intro-chunk {
+  max-width: calc(var(--base) * 17);
+  font-size: 1.25rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: calc(var(--base) * 2);
+}
+
+.indented-heading {
+  font-size: 1.25rem;
+  max-width: fit-content;
+  margin-top: calc(var(--base) * -0.5);
+  margin-left: calc(var(--base) * -2);
+  margin-bottom: calc(var(--base));
+  padding: calc(var(--base) * 0.75) calc(var(--base) * 2);
+  background-color: var(--secondary-lighter);
+  border-bottom: calc(var(--base) / 4) solid var(--secondary-darker);
+}
+
+strong {
+  color: var(--primary);
+}
+
+main {
+  background-color: var(--light);
+  padding: calc(var(--base) * 3) 0;
+}
+
+section {
+  border-bottom: calc(var(--base) / 4) solid var(--medium);
+}
+
+.card p {
+  color: var(--very-dark);
+}
+
+
 
 /* Add styles here! */
 h1,
