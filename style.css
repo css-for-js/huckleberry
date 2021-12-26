@@ -16,10 +16,6 @@ h3 {
   margin: 0;
 }
 
-html {
-  font-size: 18px;
-}
-
 .max-width-wrapper {
   max-width: 800px;
   margin: 0 auto;
