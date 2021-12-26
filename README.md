@@ -104,12 +104,7 @@ The scale is:
 - `1.5rem`
 - `2rem`
 
-Because the base font size is 18px, this works out in pixels to:
-
-- `18px`
-- `22.5px`
-- `27px`
-- `36px`
+By default, `1rem` is equivalent to `16px`.
 
 ### Color palette
 
