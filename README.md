@@ -36,9 +36,9 @@ npm run start
 
 You should see a confirmation message like this:
 
-![Screenshot of a terminal, showing a server running at http://localhost:5000](./docs/terminal-example.png)
+![Screenshot of a terminal, showing a server running at http://localhost:9000](./docs/terminal-example.png)
 
-You can visit `http://localhost:5000` to view the page. You should see a bunch of unstyled content:
+You can visit `http://localhost:9000` to view the page. You should see a bunch of unstyled content:
 
 ![Screenshot of an unstyled page with a couple headings and some paragraphs](./docs/initial.png)
 
