@@ -21,8 +21,13 @@ h2 {
   margin: 0;
   padding: 16px;
   width: fit-content;
-  margin-left: -20px;
-  background-color: gold;
+  margin-left: -24px;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+}
+
+p {
+  max-width: 100%;
 }
 
 strong {
@@ -34,14 +39,18 @@ header {
   padding: 48px 0;
 }
 
+.intro-chunk {
+  padding-left: 8px;
+}
+
 .intro-chunk p {
-  width: 450px;
-  max-width: 320px;
+  width: 328px;
 }
 
 .max-width-wrapper {
-  width: 1200px;
-  padding-left: 128px;
+  width: 900px;
+  max-width: 99%;
+  padding-left: 64px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -59,4 +68,6 @@ section {
 
 .card {
   background-color: white;
+  padding: 8px 16px 0 16px;
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
 }
