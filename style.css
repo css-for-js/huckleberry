@@ -7,27 +7,13 @@ html,
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
 }
 
 /* Add styles here! */
 
-h1 {
-  margin-bottom: 40px;
-  width: fit-content;
-}
-
+h1,
 h2 {
   margin: 0;
-  padding: 16px;
-  width: fit-content;
-  margin-left: -24px;
-  background-color: hsl(45deg, 100%, 50%);
-  border-bottom: 8px solid hsl(45deg, 100%, 40%);
-}
-
-p {
-  max-width: 100%;
 }
 
 strong {
@@ -36,38 +22,50 @@ strong {
 
 header {
   border-bottom: 8px solid hsl(0deg, 0%, 40%);
-  padding: 48px 0;
 }
 
 .intro-chunk {
-  padding-left: 8px;
+  max-width: 400px;
+  padding: 96px 0;
 }
 
 .intro-chunk p {
-  width: 328px;
+  font-size: 1.3rem;
 }
 
 .max-width-wrapper {
-  width: 900px;
-  max-width: 100%;
-  padding-left: 64px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
 /* bottom container! */
 
 main {
   background-color: hsl(0deg, 0%, 60%);
-}
-
-section {
-  height: 320px;
-  padding-top: 48px;
+  padding: 96px 0;
 }
 
 .card {
   background-color: white;
-  padding: 8px 16px 0 16px;
+  padding: 24px;
+  margin: -24px;
   border-bottom: 8px solid hsl(0deg, 0%, 40%);
+}
+
+.card p {
+  line-height: 1.4;
+}
+
+.card p:last-child {
+  margin-bottom: 0;
+}
+
+.indented-heading {
+  padding: 16px 32px;
+  width: fit-content;
+  margin-left: -32px;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  margin-top: -16px;
 }
