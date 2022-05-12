@@ -49,3 +49,24 @@ strong {
     color: hsl(160deg, 100%, 30%);
 }
 
+main {
+    background: hsl(0deg, 0%, 60%);
+    padding: 96px 0;
+}
+
+.card {
+    background: hsl(0deg, 0%, 100%);
+    padding: 24px;
+    margin: -24px;
+    border-bottom: 8px solid hsl(0deg, 0%, 40%);
+}
+
+.card p {
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+
+.card p:last-child {
+    margin-bottom: 0;
+}
+
