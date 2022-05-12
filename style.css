@@ -30,3 +30,22 @@ h3 {
 header {
     border-bottom: 8px solid hsl(0deg, 0%, 40%);
 }
+
+.intro-chunk {
+    max-width: 400px;
+    padding: 96px 0;
+}
+
+.intro-chunk .title {
+    font-size: 2rem;
+    margin-bottom: 32px;
+}
+
+.intro-chunk p {
+    font-size: 1.25rem;
+}
+
+strong {
+    color: hsl(160deg, 100%, 30%);
+}
+
