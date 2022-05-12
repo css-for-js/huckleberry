@@ -1,12 +1,80 @@
 * {
-  box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
 html,
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 /* Add styles here! */
+.max-width-wrapper {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 24px;
+}
+
+html {
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+header {
+    border-bottom: 8px solid hsl(0deg, 0%, 40%);
+}
+
+.intro-chunk {
+    max-width: 400px;
+    padding: 96px 0;
+}
+
+.intro-chunk .title {
+    font-size: 2rem;
+    margin-bottom: 32px;
+}
+
+.intro-chunk p {
+    font-size: 1.25rem;
+}
+
+strong {
+    color: hsl(160deg, 100%, 30%);
+}
+
+main {
+    background: hsl(0deg, 0%, 60%);
+    padding: 96px 0;
+}
+
+.card {
+    background: hsl(0deg, 0%, 100%);
+    padding: 24px;
+    margin: -24px;
+    border-bottom: 8px solid hsl(0deg, 0%, 40%);
+}
+
+.card p {
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+
+.card p:last-child {
+    margin-bottom: 0;
+}
+
+.indented-heading {
+    width: fit-content;
+    margin-top: -16px;
+    margin-left: -32px;
+    background: hsl(45deg, 100%, 50%);
+    padding: 16px 32px;
+    border-bottom: 8px solid hsl(45deg, 100%, 40%);
+}
