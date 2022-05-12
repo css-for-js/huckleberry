@@ -1,12 +1,32 @@
 * {
-  box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
 html,
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 /* Add styles here! */
+.max-width-wrapper {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 24px;
+}
+
+html {
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+header {
+    border-bottom: 8px solid hsl(0deg, 0%, 40%);
+}
