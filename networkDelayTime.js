@@ -30,6 +30,12 @@ const networkDelayTime = (times, n, k) => {
         /* we change to false initially thinking that we can find all actual times in first iteration &
 		we dont have to recompute again(positive case) */
         shouldComputeTime = false;
+
+        for(let [src, target, timeTaken] of times){
+            // decrementing because we need to access our actualTimeTaken array(index-based)
+            src-=1
+            target-=1
+        }
     }
 };
 
