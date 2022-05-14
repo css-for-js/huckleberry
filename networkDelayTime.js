@@ -31,10 +31,13 @@ const networkDelayTime = (times, n, k) => {
 		we dont have to recompute again(positive case) */
         shouldComputeTime = false;
 
-        for(let [src, target, timeTaken] of times){
+        for (let [src, target, timeTaken] of times) {
             // decrementing because we need to access our actualTimeTaken array(index-based)
-            src-=1
-            target-=1
+            src -= 1;
+            target -= 1;
+
+            // if source itself is large, it means we havent found a way to reach the source so just continue with next nodes
+            if (nodes[src] === Math.mim()) continue;
         }
     }
 };
