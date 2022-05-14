@@ -23,6 +23,10 @@ const networkDelayTime = (times, n, k) => {
     // since its array we assign k-1(index) as 0.
     nodes[k - 1] = 0;
     console.log(nodes);
+
+    // iterate until we have found actual time for the signal
+    let shouldComputeTime = true;
+    
 };
 
 const times = [
