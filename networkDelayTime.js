@@ -13,4 +13,18 @@
  * @param {number} k
  * @return {number}
  */
-const networkDelayTime = (times, n, k) => {};
+const networkDelayTime = (times, n, k) => {
+    // Initially we assume the time-taken to reach each node is a large value. Math.min() --> without any args will be large val (Infinity).
+    let nodes = new Array(n).fill(Math.min());
+    nodes
+};
+
+const times = [
+        [2, 1, 1],
+        [2, 3, 1],
+        [3, 4, 1],
+    ],
+    n = 4,
+    k = 2; // Output: 2;
+
+console.log(networkDelayTime(times, n, k));
