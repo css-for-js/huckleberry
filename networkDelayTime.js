@@ -16,7 +16,13 @@
 const networkDelayTime = (times, n, k) => {
     // Initially we assume the time-taken to reach each node is a large value. Math.min() --> without any args will be large val (Infinity).
     let nodes = new Array(n).fill(Math.min());
-    nodes
+
+    nodes;
+
+    // K is staring node where we get the signal initally.So we dont have to wait for it.
+    // since its array we assign k-1(index) as 0.
+    nodes[k - 1] = 0;
+    console.log(nodes);
 };
 
 const times = [
