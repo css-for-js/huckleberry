@@ -26,7 +26,11 @@ const networkDelayTime = (times, n, k) => {
 
     // iterate until we have found actual time for the signal
     let shouldComputeTime = true;
-    
+    while (shouldComputeTime) {
+        /* we change to false initially thinking that we can find all actual times in first iteration &
+		we dont have to recompute again(positive case) */
+        shouldComputeTime = false;
+    }
 };
 
 const times = [
