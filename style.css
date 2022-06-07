@@ -1,6 +1,51 @@
+/* DESIGN TOKENS
+
+**********
+
+Spacing:
+
+8px
+16px
+24px
+32px
+48px
+64px
+96px
+128px
+
+**********
+
+Font sizes
+
+1rem
+1.25rem
+1.5rem
+2rem
+
+**********
+
+Color palette:
+
+Primary (green):
+hsl(160deg, 100%, 30%)
+
+Secondary (gold):
+hsl(45deg, 100%, 50%) (lighter)
+hsl(45deg, 100%, 40%) (darker)
+
+Grays:
+hsl(0deg, 0%, 0%) (black)
+hsl(0deg, 0%, 10%) (very dark)
+hsl(0deg, 0%, 30%) (dark)
+hsl(0deg, 0%, 40%) (medium)
+hsl(0deg, 0%, 60%) (light)
+hsl(0deg, 0%, 100%) (white)
+
+*/
+
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
@@ -9,4 +54,55 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+p {
+  line-height: 1.4;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.max-width-wrapper {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+}
+
+.intro-chunk {
+  padding-left: 24px;
+  padding-right: 24px;
+  max-width: 400px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+main {
+  background-color: hsl(0deg, 0%, 60%);
+  padding: 64px 0;
+}
+
+.card {
+  background: hsl(0deg, 0%, 100%);
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+  padding: 8px 24px;
+}
+
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-left: -32px;
+  padding: 8px 32px;
+  width: fit-content;
+}
