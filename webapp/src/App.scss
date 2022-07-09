@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  #pageContainer {
+  
+  }
+  #introChunkTitle {
+    font-size: 1.5rem;
+  }
+  .introChunk {
+    margin-top: 5rem;
+    margin-left: 10rem;
+    #introParaOne {
+      width: 35%;
+    }
+    #introParaTwo {
+      width: 25%;
+    }
+  }
+  #mainContent {
+    border-top: .25rem solid #484848;
+    background-color: #989898;
+    height: 20rem;
+    .card {
+      background-color: white;
+      margin-left: 10rem;
+      border-bottom: .25rem solid #484848;
+    }
+    .mainContentHeading {
+        z-index: 10;
+        margin-right: 1rem;
+        background-color: hsl(45deg, 100%, 50%);
+        width: 21rem;
+        box-shadow: 0rem .35rem 0rem 0rem hsl(45deg, 100%, 40%);
+        font-weight: bold;
+        font-size: 1.2rem;
+        text-align: center;
+        padding: .5rem;
+        position: relative;
+        right: .5rem;
+    }
+  }
+  
