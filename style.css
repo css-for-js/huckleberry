@@ -7,6 +7,12 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
+}
+
+.app {
+  min-height: 100%;
+  background-color:  hsl(0deg, 0%, 60%);
 }
 
 /* Add styles here! */
@@ -15,8 +21,11 @@ strong {
 }
 
 main {
-  background-color:  hsl(0deg, 0%, 60%);
   padding-top: 64px;
+}
+
+header {
+  background-color: white;
 }
 
 header .max-width-wrapper {
