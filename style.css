@@ -32,6 +32,10 @@ header .max-width-wrapper {
   padding: 32px 16px;
 }
 
+.intro-chunk p {
+  max-width: 20rem;
+}
+
 .indented-heading {
   padding: 1rem 2rem;
   background-color: hsl(45deg, 100%, 50%);
