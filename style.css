@@ -16,7 +16,7 @@ strong {
 
 main {
   background-color:  hsl(0deg, 0%, 60%);
-  padding-top: 32px;
+  padding-top: 64px;
 }
 
 header .max-width-wrapper {
@@ -52,4 +52,5 @@ header .max-width-wrapper {
   margin-left: auto;
   margin-right: auto;
   padding: 16px 24px;
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
 }
