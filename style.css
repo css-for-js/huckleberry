@@ -3,6 +3,18 @@
   font-family: 'Lato', sans-serif;
 }
 
+:root {
+  --color-primary: hsl(160deg, 100%, 30%);
+  --color-secondary: hsl(45deg, 100%, 50%);
+  --color-secondary-dark: hsl(45deg, 100%, 40%);
+  --color-black: hsl(0deg, 0%, 0%);
+  --color-white: hsl(0deg, 0%, 100%);
+  --color-gray-very-dark: hsl(0deg, 0%, 10%);
+  --color-gray-dark: hsl(0deg, 0%, 30%);
+  --color-gray-medium: hsl(0deg, 0%, 40%);
+  --color-gray-light: hsl(0deg, 0%, 60%);
+}
+
 html,
 body {
   margin: 0;
