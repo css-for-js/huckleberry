@@ -9,4 +9,14 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+:root {
+  --green: hsl(160deg, 100%, 30%);
+  --lightgold: hsl(45deg, 100%, 50%);
+  --darkgold: hsl(45deg, 100%, 40%);
+  --black: hsl(0deg, 0%, 0%);
+  --verydark: hsl(0deg, 0%, 10%);
+  --dark: hsl(0deg, 0%, 30%);
+  --medium: hsl(0deg, 0%, 40%);
+  --light: hsl(0deg, 0%, 60%);
+  --white: hsl(0deg, 0%, 100%);
+}
