@@ -10,22 +10,21 @@ html, body {
 }
 
 body {
-
+  background-color: white;
   color: hsl(0deg, 0%, 0%);
   line-height: 1.5em;
-}
-
-header {
-  width: 100%;
-  background-color: white;
-  margin-top: 96px;
-  margin-bottom: 72px;
 }
 
 .max-width-wrapper {
   max-width: 100%;
   padding-inline-start: 176px;
   padding-inline-end: 176px;
+}
+
+header {
+  width: 100%;
+  padding-top: 96px;
+  padding-bottom: 52px;
 }
 
 .intro-chunk {
@@ -40,7 +39,7 @@ main {
   background-color: hsl(0deg, 0%, 60%);
 }
 
-main .card {
+.card {
   margin-left: -24px;
   width: 768px;
   background-color: hsl(0deg, 0%, 100%);
@@ -72,6 +71,35 @@ p {
 strong {
   color: hsl(160deg, 100%, 30%);
   font-weight: 700;
+}
+
+@media (max-width: 400px) {
+  .max-width-wrapper {
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+  }
+
+  .intro-chunk, .card {
+    width: 100%;
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+    
+  }
+
+  .card {
+    width: 100%;
+    margin-left: auto;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-left: -24px;
+    padding: 16px 24px;
+  }
 }
 
 
