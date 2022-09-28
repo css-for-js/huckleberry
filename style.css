@@ -20,3 +20,23 @@ body {
   --light: hsl(0deg, 0%, 60%);
   --white: hsl(0deg, 0%, 100%);
 }
+
+h2 {
+  background-color: var(--lightgold);
+  border-bottom: solid 8px var(--darkgold);
+}
+
+strong {
+  color: var(--green);
+}
+
+main .max-width-wrapper {
+  background-color: var(--light);
+  border-top: solid 8px var(--medium);
+}
+
+.card {
+  background-color: var(--white);
+  border-bottom : solid 8px var(--medium);
+}
+
