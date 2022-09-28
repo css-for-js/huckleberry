@@ -4,7 +4,7 @@
 }
 
 html, body {
-  margin: 0;
+  margin: 0 auto;
   height: 100%;
   width: 100%;
 }
@@ -17,6 +17,8 @@ body {
 
 .max-width-wrapper {
   max-width: 100%;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
   padding-inline-start: 176px;
   padding-inline-end: 176px;
 }
@@ -45,7 +47,6 @@ main {
   background-color: hsl(0deg, 0%, 100%);
   padding: 8px 24px;
   border-bottom: 8px solid hsl(0deg, 0%, 40%);
-
 }
 
 h1 {
@@ -72,8 +73,32 @@ strong {
   color: hsl(160deg, 100%, 30%);
   font-weight: 700;
 }
-
+/* 
 @media (max-width: 400px) {
+  .intro-chunk, .card {
+    width: 100%;
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+    
+  }
+
+  .card {
+    width: 100%;
+    margin-left: auto;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-left: -24px;
+    padding: 16px 24px;
+  }
+} */
+
+@media (max-width: 992px) {
   .max-width-wrapper {
     padding-inline-start: 0;
     padding-inline-end: 0;
@@ -101,11 +126,3 @@ strong {
     padding: 16px 24px;
   }
 }
-
-
-/* Grays:
-- `hsl(0deg, 0%, 10%)` (very dark)
-- `hsl(0deg, 0%, 30%)` (dark)
-- `hsl(0deg, 0%, 40%)` (medium)
-- `hsl(0deg, 0%, 60%)` (light) */
-
