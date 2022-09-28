@@ -24,6 +24,9 @@ body {
 h2 {
   background-color: var(--lightgold);
   border-bottom: solid 8px var(--darkgold);
+  padding: 16px 32px;
+  max-width: fit-content;
+  margin: -16px 0 0 -32px;
 }
 
 strong {
@@ -33,10 +36,21 @@ strong {
 main .max-width-wrapper {
   background-color: var(--light);
   border-top: solid 8px var(--medium);
+  width: 100%;
+  padding: 64px 0;
 }
 
 .card {
   background-color: var(--white);
   border-bottom : solid 8px var(--medium);
+  min-width: 500px;
+  max-width: 900px;
+  padding: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main p {
+  max-width: 900px;
 }
 
