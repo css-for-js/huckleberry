@@ -3,10 +3,81 @@
   font-family: 'Lato', sans-serif;
 }
 
-html,
-body {
+html, body {
   margin: 0;
-  padding: 0;
+  height: 100%;
+  width: 100%;
 }
 
-/* Add styles here! */
+body {
+
+  color: hsl(0deg, 0%, 0%);
+  line-height: 1.5em;
+}
+
+header {
+  width: 100%;
+  background-color: white;
+  margin-top: 96px;
+  margin-bottom: 72px;
+}
+
+.max-width-wrapper {
+  max-width: 100%;
+  padding-inline-start: 176px;
+  padding-inline-end: 176px;
+}
+
+.intro-chunk {
+  width: 420px;
+}
+
+main {
+  width: 100%;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  border-top: 8px solid hsl(0deg, 0%, 40%);
+  background-color: hsl(0deg, 0%, 60%);
+}
+
+main .card {
+  margin-left: -24px;
+  width: 768px;
+  background-color: hsl(0deg, 0%, 100%);
+  padding: 8px 24px;
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 56px;
+}
+
+h2 {
+  width: fit-content;
+  margin-block-start: 0px;
+  margin-inline-start: -32px;
+  padding: 16px 32px;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+  font-weight: 700;
+}
+
+
+/* Grays:
+- `hsl(0deg, 0%, 10%)` (very dark)
+- `hsl(0deg, 0%, 30%)` (dark)
+- `hsl(0deg, 0%, 40%)` (medium)
+- `hsl(0deg, 0%, 60%)` (light) */
+
