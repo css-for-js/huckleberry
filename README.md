@@ -2,21 +2,12 @@
 
 In this workshop, you'll build a minimal landing page for an agency.
 
-This mockup is built entirely using _flow layout_: no Flexbox, no grid, no absolute positioning. It relies heavily on padding, margin, and border.
-
-## Mockups
-
-Desktop:
+This mockup is built entirely using _flow layout_: no Flexbox, no grid, no absolute positioning, no media queries. It relies heavily on padding, margin, and border, as well as some of the tricks we learned in Module 1.
 
 <img alt="Desktop-sized screenshot of an agency landing page" src="./docs/huckleberry-desktop.png" style="" />
 
-Tablet:
-
-<img alt="Tablet-sized screenshot of an agency landing page" src="./docs/huckleberry-tablet.png" style="max-width: 400px;" />
-
-Mobile:
-
-<img alt="Mobile-sized screenshot of an agency landing page" src="./docs/huckleberry-mobile.png" style="max-width: 300px;" />
+The design is available on Figma:
+https://www.figma.com/file/6hGqKA5scrZJScb9KW3Hj2/Huckleberry?node-id=0%3A1
 
 ## Setup Instructions
 
