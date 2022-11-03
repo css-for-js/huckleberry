@@ -7,7 +7,7 @@ This mockup is built entirely using _flow layout_: no Flexbox, no grid, no absol
 <img alt="Desktop-sized screenshot of an agency landing page" src="./docs/huckleberry-desktop.png" style="" />
 
 The design is available on Figma:
-https://www.figma.com/file/6hGqKA5scrZJScb9KW3Hj2/Huckleberry?node-id=0%3A1
+https://www.figma.com/file/6hGqKA5scrZJScb9KW3Hj2/Huckleberry
 
 ## Setup Instructions
 
@@ -116,10 +116,6 @@ Grays:
 - `hsl(0deg, 0%, 40%)` (medium)
 - `hsl(0deg, 0%, 60%)` (light)
 - `hsl(0deg, 0%, 100%)` (white)
-
-> What the HSL?
->
-> You may be more familiar with color values in hexadecimal format, like `#FF0000`. In Module 0's "color" lesson, we go over what HSL color is and how it works. If you haven't already, it's worth reviewing before getting started!
 
 ## Submissions
 
