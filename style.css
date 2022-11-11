@@ -10,3 +10,15 @@ body {
 }
 
 /* Add styles here! */
+header {
+  max-width: 350px;  
+  margin: 100px auto;
+}
+
+.max-width-wrapper {
+  max-width: 350px;
+}
+
+strong {
+  color: hsl(160, 100%, 30%)
+}
