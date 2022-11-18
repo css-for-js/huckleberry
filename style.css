@@ -9,15 +9,18 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
-header {
-  max-width: 350px;  
-  margin: 100px auto;
+.max-width-wrapper {
+  width: 800px;
+  margin: 0 auto;
 }
 
-.max-width-wrapper {
-  max-width: 350px;
+.intro-chunk {
+  padding-top: 96px;
+  padding-bottom: 64px;
+  max-width: 415px;
 }
+
+
 
 strong {
   color: hsl(160, 100%, 30%)
