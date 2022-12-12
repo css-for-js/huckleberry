@@ -56,6 +56,8 @@ You can visit `http://localhost:9000` to view the page. You should see a bunch o
 
 ![Desktop mockup with a vertical line showing alignment](./docs/aligned.png)
 
+(I've made this image semi-transparent to highlight the alignment; see the Figma for a color-accurate reference!)
+
 That said: Don't worry if you can't create a pixel-perfect recreation. In the solution video, I'll show you exactly how I did it. Spend an hour or so on this project, and submit whatever you have at that point.
 
 ## Design tokens
