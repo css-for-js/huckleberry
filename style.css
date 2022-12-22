@@ -12,6 +12,12 @@ body {
 
 /* Add styles here! */
 
+.title {
+  margin-top: 0px;
+  margin-bottom: 32px;
+  font-size: 2rem;
+}
+
 strong {
   color: hsl(160deg, 100%, 30%)
 } 
@@ -29,12 +35,6 @@ strong {
   .intro-chunk {
     min-height: 100%;
     padding: 0px 601px 64px 264px;
-  }
-  
-  .title {
-    margin-top: 0px;
-    margin-bottom: 32px;
-    font-size: 2rem;
   }
   
   p {
@@ -84,12 +84,6 @@ strong {
     padding: 0px 343px 64px 24px;
   }
 
-  .title {
-    margin-top: 0px;
-    margin-bottom: 32px;
-    font-size: 2rem;
-  }
-
   p {
     margin-top: 16px;
     margin-bottom: 16px;
@@ -124,8 +118,49 @@ strong {
 }
 
 /* Mobile */
-@media (max-width: 390px) {
+@media (max-width: 398px) {
+
+  header {
+    width: 398px;
+    height: 390px;
+    background-color: hsl(0deg, 0%, 100%);
+    margin: 96px 0px 0px 0px;
+    border-bottom: solid 8px hsl(0deg, 0%, 60%);
+  }
+
+  .intro-chunk {
+    min-height: 100%;
+    padding: 0px 24px 64px 24px;
+  }
+
   p {
-    color: red;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 1.25rem;
+    width: fit-content;
+  }
+
+  main {
+    width: 398px;
+    height: 767px;
+    border: solid 1px hsl(0deg, 0%, 40%);
+    background-color: hsl(0deg, 0%, 40%);
+  }
+
+  .card {
+    border: solid 1px hsl(0deg, 0%, 40%);
+    border-bottom: solid 8px hsl(0deg, 0%, 60%);
+    margin: 72px 0px 64px 0px;
+    padding: 0px 24px 24px 24px;
+    background-color: hsl(0deg, 0%, 100%);
+  }
+
+  .indented-heading {
+    font-size: 1.5rem;
+    text-align: left;
+    background: hsl(45deg, 100%, 50%);
+    padding: 12px 24px 12px 24px;
+    margin-top: 8px;
+    border-bottom: solid 8px hsl(45deg, 100%, 40%);
   }
 }
