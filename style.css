@@ -110,7 +110,7 @@ strong {
     text-align: center;
     background: hsl(45deg, 100%, 50%);
     width: fit-content;
-    padding: 16px 32px;
+    padding: 16px 32px 16px 24px;
     margin-top: 8px;
     margin-left: -24px;
     border-bottom: solid 8px hsl(45deg, 100%, 40%);
@@ -118,10 +118,10 @@ strong {
 }
 
 /* Mobile */
-@media (max-width: 398px) {
+@media (max-width: 390px) {
 
   header {
-    width: 398px;
+    width: 390px;
     height: 390px;
     background-color: hsl(0deg, 0%, 100%);
     margin: 96px 0px 0px 0px;
@@ -141,7 +141,7 @@ strong {
   }
 
   main {
-    width: 398px;
+    width: 390px;
     height: 767px;
     border: solid 1px hsl(0deg, 0%, 40%);
     background-color: hsl(0deg, 0%, 40%);
@@ -160,7 +160,7 @@ strong {
     text-align: left;
     background: hsl(45deg, 100%, 50%);
     padding: 12px 24px 12px 24px;
-    margin-top: 8px;
+    margin: 8px 0px 0px -24px;
     border-bottom: solid 8px hsl(45deg, 100%, 40%);
   }
 }
