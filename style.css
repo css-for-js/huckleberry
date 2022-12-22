@@ -16,18 +16,13 @@ header {
   width: 1280px;
   height: 294px;
   background-color: hsl(0deg, 0%, 100%);
-  margin-top: 96px;
-  margin-right: 0px;
-  margin-left: 0px;
+  margin: 96px 0px 0px 0px;
   border-bottom: solid 8px hsl(0deg, 0%, 60%);
 }
 
 .intro-chunk {
   min-height: 100%;
-  padding-top: 0px;
-  padding-left: 264px;
-  padding-right: 601px;
-  padding-bottom: 64px;
+  padding: 0px 601px 64px 264px;
 }
 
 .title {
@@ -56,13 +51,8 @@ main {
 .card {
   border: solid 1px hsl(0deg, 0%, 40%);
   border-bottom: solid 8px hsl(0deg, 0%, 60%);
-  margin-top: 72px;
-  margin-left: 232px;
-  margin-bottom: 58px;
-  margin-right: 240px;
-  padding-right: 24px;
-  padding-left: 24px;
-  padding-bottom: 24px;
+  margin: 72px 240px 58px 232px;
+  padding: 0px 24px 24px 24px;
   background-color: hsl(0deg, 0%, 100%);
 }
 
