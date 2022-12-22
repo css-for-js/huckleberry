@@ -12,58 +12,120 @@ body {
 
 /* Add styles here! */
 
-header {
-  width: 1280px;
-  height: 294px;
-  background-color: hsl(0deg, 0%, 100%);
-  margin: 96px 0px 0px 0px;
-  border-bottom: solid 8px hsl(0deg, 0%, 60%);
-}
-
-.intro-chunk {
-  min-height: 100%;
-  padding: 0px 601px 64px 264px;
-}
-
-.title {
-  margin-top: 0px;
-  margin-bottom: 32px;
-  font-size: 2rem;
-}
-
-p {
-  margin-top: 16px;
-  margin-bottom: 16px;
-  font-size: 1.25rem;
-}
-
 strong {
   color: hsl(160deg, 100%, 30%)
+} 
+
+/* Desktop */
+@media (min-width: 768px) {
+  header {
+    width: 1280px;
+    height: 294px;
+    background-color: hsl(0deg, 0%, 100%);
+    margin: 96px 0px 0px 0px;
+    border-bottom: solid 8px hsl(0deg, 0%, 60%);
+  }
+  
+  .intro-chunk {
+    min-height: 100%;
+    padding: 0px 601px 64px 264px;
+  }
+  
+  .title {
+    margin-top: 0px;
+    margin-bottom: 32px;
+    font-size: 2rem;
+  }
+  
+  p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 1.25rem;
+  }
+  
+  main {
+    width: 1280px;
+    height: 450px;
+    border: solid 1px hsl(0deg, 0%, 40%);
+    background-color: hsl(0deg, 0%, 40%);
+  }
+  
+  .card {
+    border: solid 1px hsl(0deg, 0%, 40%);
+    border-bottom: solid 8px hsl(0deg, 0%, 60%);
+    margin: 72px 240px 58px 232px;
+    padding: 0px 24px 24px 24px;
+    background-color: hsl(0deg, 0%, 100%);
+  }
+  
+  .indented-heading {
+    font-size: 1.5rem;
+    text-align: center;
+    background: hsl(45deg, 100%, 50%);
+    width: fit-content;
+    padding: 16px 32px;
+    margin-left: -32px;
+    border-bottom: solid 8px hsl(45deg, 100%, 40%);
+  }
 }
 
-main {
-  width: 1280px;
-  height: 450px;
-  border: solid 1px hsl(0deg, 0%, 40%);
-  background-color: hsl(0deg, 0%, 40%);
+/* Tablet */
+@media (min-width: 391px) and (max-width: 768px) {
+  header {
+    width: 768px;
+    height: 390px;
+    background-color: hsl(0deg, 0%, 100%);
+    margin: 96px 0px 0px 0px;
+    border-bottom: solid 8px hsl(0deg, 0%, 60%);
+  }
+
+  .intro-chunk {
+    min-height: 100%;
+    padding: 0px 343px 64px 24px;
+  }
+
+  .title {
+    margin-top: 0px;
+    margin-bottom: 32px;
+    font-size: 2rem;
+  }
+
+  p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 1.25rem;
+  }
+
+  main {
+    width: 768px;
+    height: 456px;
+    border: solid 1px hsl(0deg, 0%, 40%);
+    background-color: hsl(0deg, 0%, 40%);
+  }
+
+  .card {
+    border: solid 1px hsl(0deg, 0%, 40%);
+    border-bottom: solid 8px hsl(0deg, 0%, 60%);
+    margin: 72px 0px 64px 0px;
+    padding: 0px 24px 24px 24px;
+    background-color: hsl(0deg, 0%, 100%);
+  }
+
+  .indented-heading {
+    font-size: 1.5rem;
+    text-align: center;
+    background: hsl(45deg, 100%, 50%);
+    width: fit-content;
+    padding: 16px 32px;
+    margin-top: 8px;
+    margin-left: -24px;
+    border-bottom: solid 8px hsl(45deg, 100%, 40%);
+  }
 }
 
-.card {
-  border: solid 1px hsl(0deg, 0%, 40%);
-  border-bottom: solid 8px hsl(0deg, 0%, 60%);
-  margin: 72px 240px 58px 232px;
-  padding: 0px 24px 24px 24px;
-  background-color: hsl(0deg, 0%, 100%);
+/* Mobile */
+@media (max-width: 390px) {
+  p {
+    color: red;
+  }
 }
-
-.indented-heading {
-  font-size: 1.5rem;
-  text-align: center;
-  background: hsl(45deg, 100%, 50%);
-  width: fit-content;
-  padding: 16px 32px;
-  margin-left: -32px;
-  border-bottom: solid 8px hsl(45deg, 100%, 40%);
-}
-
-
