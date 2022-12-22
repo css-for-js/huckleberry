@@ -20,16 +20,24 @@ body {
 
 strong {
   color: hsl(160deg, 100%, 30%)
-} 
+}
+
+header {
+  background-color: hsl(0deg, 0%, 100%);
+  margin: 96px 0px 0px 0px;
+  border-bottom: solid 8px hsl(0deg, 0%, 60%);
+}
+
+main {
+  border: solid 1px hsl(0deg, 0%, 40%);
+  background-color: hsl(0deg, 0%, 40%);
+}
 
 /* Desktop */
 @media (min-width: 768px) {
   header {
     width: 1280px;
     height: 294px;
-    background-color: hsl(0deg, 0%, 100%);
-    margin: 96px 0px 0px 0px;
-    border-bottom: solid 8px hsl(0deg, 0%, 60%);
   }
   
   .intro-chunk {
@@ -46,8 +54,6 @@ strong {
   main {
     width: 1280px;
     height: 450px;
-    border: solid 1px hsl(0deg, 0%, 40%);
-    background-color: hsl(0deg, 0%, 40%);
   }
   
   .card {
@@ -74,9 +80,6 @@ strong {
   header {
     width: 768px;
     height: 390px;
-    background-color: hsl(0deg, 0%, 100%);
-    margin: 96px 0px 0px 0px;
-    border-bottom: solid 8px hsl(0deg, 0%, 60%);
   }
 
   .intro-chunk {
@@ -93,8 +96,6 @@ strong {
   main {
     width: 768px;
     height: 456px;
-    border: solid 1px hsl(0deg, 0%, 40%);
-    background-color: hsl(0deg, 0%, 40%);
   }
 
   .card {
@@ -123,9 +124,6 @@ strong {
   header {
     width: 390px;
     height: 390px;
-    background-color: hsl(0deg, 0%, 100%);
-    margin: 96px 0px 0px 0px;
-    border-bottom: solid 8px hsl(0deg, 0%, 60%);
   }
 
   .intro-chunk {
@@ -143,8 +141,6 @@ strong {
   main {
     width: 390px;
     height: 767px;
-    border: solid 1px hsl(0deg, 0%, 40%);
-    background-color: hsl(0deg, 0%, 40%);
   }
 
   .card {
