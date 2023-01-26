@@ -7,49 +7,67 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: hsl(0, 0%, 40%);
-  line-height: 150%;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  line-height: 1.2;
+  margin-bottom: 3rem;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+/** remove bottom margin for last paragraph **/
+p:last-child {
+  margin-bottom: 0;
 }
 
 /* Add styles here! */
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.intro-chunk {
+  max-width: 415px;
+  padding-top: 96px;
+  padding-bottom: 64px;
+  padding: 96px 24px 64px 24px;
+}
+
 header {
-  padding: 96px 0px;
-  border-bottom: 8px solid hsl(0, 0%, 60%);
-  background-color: hsl(0, 0%, 100%);
+  border-bottom: 8px solid hsl(0deg 0% 60%);
 }
 
 main {
-  margin-top: 84px;
-}
-
-.max-width-wrapper {
-  width: 668px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-header .max-width-wrapper .intro-chunk {
-  max-width: 368px;
-  padding: 0 16px;
-}
-
-strong {
-  color: hsl(160, 100%, 30%)
-}
-
-.indented-heading {
-  margin: 0;
-  margin-left: -24px;
-  padding: 20px 16px;
-  background-color: hsl(45, 100%, 50%);
-  width: fit-content;
-  border-bottom: 8px solid hsl(45, 100%, 40%);
+  background-color: hsl(0deg 0% 40%);
+  padding: 64px 0;
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
-  border-bottom: 8px solid hsl(0, 0%, 60%); 
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 16px;
+  background-color: hsl(0deg 0% 100%);
+  padding: 8px 24px 24px 24px;
+  border-bottom: 8px solid hsl(0deg 0% 60%);
+}
+
+strong {
+  color: hsl(160deg 100% 30%);
+}
+
+.indented-heading {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin: 0;
+  margin-bottom: 1rem;
+  background-color: hsl(45deg 100% 50%);
+  width: fit-content;
+  padding: 16px 32px;
+  margin-left: -32px;
+  border-bottom: 8px solid hsla(45, 100%, 40%, 1);
 }
