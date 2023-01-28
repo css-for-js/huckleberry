@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 html,
@@ -9,4 +11,38 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+main {
+  background-color: #666666;
+  border-top: #999999 solid 8px;
+}
+.intro-chunk {
+  max-width: 415px;
+}
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+.card {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 1px;  
+  padding-bottom: 24px;
+  background-color: white;
+  border-bottom: #999999 solid 8px;
+}
+.intro-chunk {
+  padding-left: 24px;
+}
+.indented-heading {
+  background-color: #FFBF00;
+  max-width: fit-content;
+  margin-left: -32px;
+  padding: 16px 32px;
+  margin-top: 8px;
+}
+
+strong {
+  color: #009966;
+}
