@@ -9,4 +9,70 @@ body {
   padding: 0;
 }
 
+body {
+  background: #666666;
+}
+
+header {
+  background: #fff;
+  border-bottom: 8px solid #999999;
+  padding-top: 96px;
+  padding-bottom: 64px;
+}
+
 /* Add styles here! */
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 48px;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.indented-heading {
+  background: #FFBF00;
+  border-bottom: 8px solid #CC9900;
+  padding: 16px 32px;
+  margin-left: -32px;
+  margin-top: -16px;
+  max-width: max-content;
+}
+
+p {
+  margin-top: 16px;
+  margin-bottom: 0;
+  font-size: 1.25rem;
+  line-height: 150%;
+}
+
+.intro-chunk p {
+  max-width: 415px;
+}
+
+strong {
+  color: #009966;
+}
+
+.card {
+  padding: 24px;
+  border-bottom: 8px solid #999999;
+  margin-bottom: 56px;
+}
+
+.intro-chunk {
+  margin: 0 24px;
+}
+
+.card {
+  background: #fff;
+  margin-top: 72px;
+}
