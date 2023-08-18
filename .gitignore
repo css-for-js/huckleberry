@@ -2,3 +2,5 @@
 dist
 .DS_Store
 node_modules
+style-1.css
+style-solution.css
