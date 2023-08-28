@@ -10,3 +10,58 @@ body {
 }
 
 /* Add styles here! */
+
+:root {
+  --primary: hsl(160deg, 100%, 30%);
+  --secondary-lighter: hsl(45deg, 100%, 50%);
+  --secondary-darker: hsl(45deg, 100%, 40%);
+  --black: hsl(0deg, 0%, 0%);
+  --gray-really-dark: hsl(0deg, 0%, 10%);
+  --gray-dark: hsl(0deg, 0%, 30%);
+  --gray-medium: hsl(0deg, 0%, 40%);
+  --gray-light: hsl(0deg, 0%, 60%);
+  --white: hsl(0deg, 0%, 100%);
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+.intro-chunk {
+  padding: 64px 24px;
+  max-width: 400px;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+.intro-chunk strong {
+  color: var(--primary)
+}
+
+.title {
+  font-size: 2rem;
+  margin-block-end: 48px;
+}
+
+main {
+  border-top: 8px solid var(--gray-light);
+  background-color: var(--gray-medium);
+  padding: 64px 0;
+}
+
+.card {
+  background-color: var(--white);
+  border-bottom: 8px solid var(--gray-light);
+  padding: 24px;
+}
+
+.card .indented-heading {
+  width: fit-content;
+  margin: -16px 0 0 -32px;
+  background-color: var(--secondary-lighter);
+  border-bottom: 8px solid var(--secondary-darker);
+  padding: 16px 32px;
+}
