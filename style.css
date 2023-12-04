@@ -3,11 +3,63 @@
   font-family: 'Lato', sans-serif;
 }
 
+h1,
+h2,
+p,
 html,
 body {
   margin: 0;
   padding: 0;
 }
-something
+main {
+  height:28.5rem;
+  background: #666666;
+  border-top: 8px solid #999999;
+}
+p {
+  margin: 1rem 0rem;
+  font-size: 1.25em;
+  line-height: 30px;
+}
+h1 {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+strong {
+  color: #096;
+}
+.max-width-wrapper{
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3rem 0rem;
+}
+.intro-chunk {
+  max-width: 401px;
+  padding: 1.5rem;
+  padding-top: 3.5rem;
+}
+section.max-width-wrapper{
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4rem 0rem ;
+}
 
-/* Add styles here! */
+.indented-heading{
+  width: fit-content;
+  padding: 1rem 2rem;
+  margin-left: -2rem;
+  background: #FFBF00;
+  border-bottom: 8px solid #CC9900;
+}
+
+.card{
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  background-color: #FFFFFF;
+  border-bottom: 8px solid #999999;
+}
