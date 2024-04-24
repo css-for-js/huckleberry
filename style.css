@@ -26,4 +26,13 @@ body {
   --text-large: 1.25rem;
   --text-larger: 1.5rem;
   --text-largest: 2rem;
+
+  --gap-1: 8px;
+  --gap-2: 16px;
+  --gap-3: 24px;
+  --gap-4: 32px;
+  --gap-6: 48px;
+  --gap-8: 64px;
+  --gap-12: 96px;
+  --gap-16: 128px;
 }
