@@ -53,3 +53,7 @@ header .max-width-wrapper {
 header .intro-chunk {
   max-width: calc(var(--gap-1) * 42);
 }
+
+p {
+  font-size: var(--text-large);
+}
