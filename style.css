@@ -38,8 +38,8 @@ body {
 }
 
 .max-width-wrapper {
-  /* padding-inline: var(--gap-3); */
   max-width: calc(var(--gap-1) * 100);
+  margin: auto;
 }
 
 header {
