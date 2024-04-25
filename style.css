@@ -4,14 +4,12 @@
 }
 
 html,
-body,
-h2 {
+body {
   margin: 0;
   padding: 0;
 }
 
 /* Add styles here! */
-
 :root {
   --primary: hsl(160deg, 100%, 30%);
   --secondary-light: hsl(45deg, 100%, 50%);
@@ -44,16 +42,17 @@ h2 {
 }
 
 header {
-  padding-block-start: calc(var(--gap-1) * 11);
-  padding-block-end: calc(var(--gap-1) * 8);
+  padding-block-start: calc(var(--gap-1) * 9);
+  padding-block-end: calc(var(--gap-1) * 6);
 }
 
 header .intro-chunk {
-  max-width: calc(var(--gap-1) * 52);
+  max-width: calc(var(--gap-1) * 56);
 }
 
 header h1 {
   font-size: var(--text-largest);
+  margin-bottom: var(--gap-6);
 }
 
 p {
