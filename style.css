@@ -65,7 +65,7 @@ p strong {
 main {
   background-color: var(--gray-medium);
   border-top: solid var(--gap-1) var(--gray-light);
-  padding-block: 2rem;
+  padding-block: var(--gap-8);
 }
 
 .intro-chunk,
@@ -80,4 +80,7 @@ main {
 
 .card .indented-heading {
   background-color: var(--secondary-light);
+  padding-inline: var(--gap-4);
+  padding-block: var(--gap-2);
+  width: fit-content;
 }
