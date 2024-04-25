@@ -38,7 +38,7 @@ body {
 }
 
 .max-width-wrapper {
-  padding-inline: var(--gap-3);
+  /* padding-inline: var(--gap-3); */
   max-width: calc(var(--gap-1) * 100);
 }
 
@@ -68,6 +68,11 @@ main {
 
 section {
   background-color: var(--gray-dark);
+}
+
+.intro-chunk,
+.card {
+  padding-inline: var(--gap-3);
 }
 
 .card {
