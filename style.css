@@ -11,7 +11,7 @@ body {
 
 /* Add styles here! */
 
-#root {
+:root {
   --primary: hsl(160deg, 100%, 30%);
   --secondary-light: hsl(45deg, 100%, 50%);
   --secondary-dark: hsl(45deg, 100%, 40%);
@@ -38,5 +38,5 @@ body {
 }
 
 header .max-width-wrapper {
-  max-width: 336px;
+  max-width: calc(var(--gap-1) * 42);
 }
