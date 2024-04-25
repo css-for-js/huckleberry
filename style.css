@@ -80,9 +80,9 @@ main {
 
 .card .indented-heading {
   background-color: var(--secondary-light);
+  border-bottom: solid var(--gap-1) var(--secondary-dark);
+  margin-inline-start: calc(var(--gap-4) * -1);
   padding-inline: var(--gap-4);
   padding-block: var(--gap-2);
   width: fit-content;
-
-  margin-inline-start: calc(var(--gap-4) * -1);
 }
