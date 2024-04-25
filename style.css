@@ -37,6 +37,19 @@ body {
   --gap-16: 128px;
 }
 
+header,
+main {
+  padding-inline: var(--gap-3);
+}
+
+header {
+  padding-block-start: calc(var(--gap-1) * 11);
+}
+
 header .max-width-wrapper {
+  max-width: calc(var(--gap-1) * 100);
+}
+
+header .intro-chunk {
   max-width: calc(var(--gap-1) * 42);
 }
