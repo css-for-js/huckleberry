@@ -45,6 +45,7 @@ h2 {
 
 header {
   padding-block-start: calc(var(--gap-1) * 11);
+  padding-block-end: calc(var(--gap-1) * 8);
 }
 
 header .intro-chunk {
