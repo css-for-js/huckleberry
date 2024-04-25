@@ -83,4 +83,6 @@ main {
   padding-inline: var(--gap-4);
   padding-block: var(--gap-2);
   width: fit-content;
+
+  margin-inline-start: calc(var(--gap-4) * -1);
 }
