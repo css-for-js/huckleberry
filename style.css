@@ -51,9 +51,17 @@ header .max-width-wrapper {
 }
 
 header .intro-chunk {
-  max-width: calc(var(--gap-1) * 42);
+  max-width: calc(var(--gap-1) * 52);
+}
+
+header h1 {
+  font-size: var(--text-largest);
 }
 
 p {
   font-size: var(--text-large);
+}
+
+p strong {
+  color: var(--primary);
 }
