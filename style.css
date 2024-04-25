@@ -37,8 +37,7 @@ body {
   --gap-16: 128px;
 }
 
-header,
-main {
+.max-width-wrapper {
   padding-inline: var(--gap-3);
   max-width: calc(var(--gap-1) * 100);
 }
