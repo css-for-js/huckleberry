@@ -75,6 +75,7 @@ main {
 
 .card {
   background-color: var(--white);
+  border-bottom: solid var(--gap-1) var(--gray-light);
 }
 
 .card .indented-heading {
