@@ -36,3 +36,7 @@ body {
   --gap-12: 96px;
   --gap-16: 128px;
 }
+
+header .max-width-wrapper {
+  max-width: 336px;
+}
