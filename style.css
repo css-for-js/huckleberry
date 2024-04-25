@@ -63,11 +63,9 @@ p strong {
 }
 
 main {
-  background-color: var(--gray-light);
-}
-
-section {
-  background-color: var(--gray-dark);
+  background-color: var(--gray-medium);
+  border-top: solid var(--gap-1) var(--gray-light);
+  padding-block: 2rem;
 }
 
 .intro-chunk,
