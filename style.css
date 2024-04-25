@@ -61,3 +61,19 @@ p {
 p strong {
   color: var(--primary);
 }
+
+main {
+  background-color: var(--gray-light);
+}
+
+section {
+  background-color: var(--gray-dark);
+}
+
+.card {
+  background-color: var(--white);
+}
+
+.card .indented-heading {
+  background-color: var(--secondary-light);
+}
