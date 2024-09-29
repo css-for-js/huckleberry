@@ -9,4 +9,8 @@ body {
   padding: 0;
 }
 
+.max-width-wrapper {
+  width: 752px;
+}
+
 /* Add styles here! */
