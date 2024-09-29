@@ -11,6 +11,10 @@ body {
   line-height: 150%;
 }
 
+h1 {
+  line-height: 120%;
+}
+
 strong {
   color:hsl(160deg, 100%, 30%);
 }
@@ -23,7 +27,7 @@ header {
 
 main {
   background: hsl(0deg, 0%, 40%);
-  padding-block-start: 2rem;
+  padding-block-start: 4rem;
   padding-block-end: 2rem;
 
 }
@@ -35,19 +39,20 @@ main {
 
 .intro-chunk {
   max-width: 415px;
-  padding: 1rem;
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
 }
 
 .indented-heading {
-  display: inline-block;
   background: hsl(45deg, 100%, 50%);
-  border-bottom: hsl(45deg, 100%, 40%);
-  padding: 1rem 1rem 1rem 2rem;
-  margin: 0px 0px 0px -2rem;
+  border-bottom:8px solid hsl(45deg, 100%, 40%);
+  padding: 1rem 1rem 1rem 3rem;
+  margin: 0px 0px 0px -3rem;
+  max-width: 620px;
 }
 
 .card {
   background: #FFFFFF;
   border-bottom: 8px solid hsl(0deg, 0%, 60%);
-  padding: 1rem;
+  padding: .5rem 2rem 2rem 2rem;
 }
