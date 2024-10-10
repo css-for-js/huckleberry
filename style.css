@@ -33,6 +33,10 @@ header .max-width-wrapper {
   margin: 0 auto;
 }
 
+.intro-chunk p {
+  max-width: 415px;
+}
+
 .title {
   margin: 0 0 48px 0;
 }
