@@ -37,6 +37,10 @@ header .max-width-wrapper {
   max-width: 415px;
 }
 
+.intro-chunk p:last-child {
+  margin-bottom: 0;
+}
+
 .title {
   margin: 0 0 48px 0;
 }
