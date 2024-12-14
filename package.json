@@ -4,7 +4,8 @@
   "main": "index.js",
   "author": "Joshua Comeau",
   "scripts": {
-    "start": "live-server --port=9000 --host=localhost ."
+    "dev": "live-server --port=9000 --host=localhost .",
+    "start": "npm run dev"
   },
   "dependencies": {
     "live-server": "1.2.1"
